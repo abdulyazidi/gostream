@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package auth;
+
+option go_package = "github.com/cloudtv/backend/pb/auth";
+
+service AuthService {
+  rpc Signup (SignUpRequest) returns (SignUpResponse) {}
+}
+
+message SignUpRequest {
+  string email = 1;
+  string username = 2;
+  string password = 3;
+  string confirm_password = 4;
+}
+
+
+message SignUpResponse {
+  string useR_id = 1;
+  string token = 2;
+}
+
