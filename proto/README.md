@@ -37,7 +37,7 @@ npm run proto:gen
    ```protobuf
    syntax = "proto3";
    package service_name;
-   option go_package = "github.com/cloudtv/backend/pb/service_name";
+   option go_package = "github.com/abdulyazidi/cloudtv/backend/pb/service_name";
    ```
 4. Run `make proto` in the backend directory
 

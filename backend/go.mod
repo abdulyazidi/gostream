@@ -1,4 +1,4 @@
-module github.com/cloudtv/backend
+module github.com/abdulyazidi/cloudtv/backend
 
 go 1.25.3
 

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	pb "github.com/cloudtv/backend/pb/auth"
+	pb "github.com/abdulyazidi/cloudtv/backend/pb/auth"
 )
 
 // Import generated proto package

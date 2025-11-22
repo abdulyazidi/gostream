@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package auth;
 
-option go_package = "github.com/cloudtv/backend/pb/auth";
+option go_package = "github.com/abdulyazidi/cloudtv/backend/pb/auth";
 
 service AuthService {
   rpc Signup (SignUpRequest) returns (SignUpResponse) {}

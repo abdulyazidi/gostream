@@ -3,8 +3,8 @@ proto:
 	@echo "Generating Go code from proto files..."
 	@mkdir -p pb
 	protoc --proto_path=../proto \
-		--go_out=. --go_opt=module=github.com/cloudtv/backend \
-		--go-grpc_out=. --go-grpc_opt=module=github.com/cloudtv/backend \
+		--go_out=. --go_opt=module=github.com/abdulyazidi/cloudtv/backend \
+		--go-grpc_out=. --go-grpc_opt=module=github.com/abdulyazidi/cloudtv/backend \
 		$$(find ../proto -name '*.proto')
 	@echo "✓ Proto generation complete"
 

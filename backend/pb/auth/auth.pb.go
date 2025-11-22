@@ -156,7 +156,7 @@ const file_auth_proto_rawDesc = "" +
 	"\auseR_id\x18\x01 \x01(\tR\x06useRId\x12\x14\n" +
 	"\x05token\x18\x02 \x01(\tR\x05token2D\n" +
 	"\vAuthService\x125\n" +
-	"\x06Signup\x12\x13.auth.SignUpRequest\x1a\x14.auth.SignUpResponse\"\x00B$Z\"github.com/cloudtv/backend/pb/authb\x06proto3"
+	"\x06Signup\x12\x13.auth.SignUpRequest\x1a\x14.auth.SignUpResponse\"\x00B0Z.github.com/abdulyazidi/cloudtv/backend/pb/authb\x06proto3"
 
 var (
 	file_auth_proto_rawDescOnce sync.Once
